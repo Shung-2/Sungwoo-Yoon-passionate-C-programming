@@ -1,0 +1,7 @@
+﻿  hello.c
+C:\Users\zlzlf\source\repos\C Programming\C Programming\hello.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\zlzlf\source\repos\C Programming\C Programming\hello.c(11,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\zlzlf\source\repos\C Programming\C Programming\hello.c(12,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\zlzlf\source\repos\C Programming\C Programming\hello.c(12,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\zlzlf\source\repos\C Programming\C Programming\hello.c(6,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  C Programming.vcxproj -> C:\Users\zlzlf\source\repos\C Programming\x64\Debug\C Programming.exe
