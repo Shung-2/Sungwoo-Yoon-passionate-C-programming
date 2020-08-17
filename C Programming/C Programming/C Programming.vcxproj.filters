@@ -96,5 +96,8 @@
     <ClCompile Include="Problem 17-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter 20.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
