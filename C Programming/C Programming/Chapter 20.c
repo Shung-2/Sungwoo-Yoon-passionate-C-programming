@@ -13,127 +13,127 @@ int ShowArray2(int(*ptrArr)[100], int size);
 
 int main(void) {
 
-	////Problem 1
-	//int Array[4][4] = {
-	//	{ 1, 2, 3, 4},
-	//	{ 5, 6, 7, 8},
-	//	{ 9, 10, 11, 12},
-	//	{ 13, 14, 15, 16}
-	//};
-	//
-	//for (int i = 0; i < 4; i++)
-	//{
-	//	for (int j = 0; j < 4; j++)
-	//	{
-	//		printf("%d ", Array[i][j]);
-	//	}
-	//	printf("\n");
-	//}
-	//printf("\n");
-	//
-	//for (int i = 0; i < 3; i++)
-	//{
-	//	RotateArray(Array);
-	//	ShowArray(Array);
-	//}
+	//Problem 1
+	int Array[4][4] = {
+		{ 1, 2, 3, 4},
+		{ 5, 6, 7, 8},
+		{ 9, 10, 11, 12},
+		{ 13, 14, 15, 16}
+	};
+	
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			printf("%d ", Array[i][j]);
+		}
+		printf("\n");
+	}
+	printf("\n");
+	
+	for (int i = 0; i < 3; i++)
+	{
+		RotateArray(Array);
+		ShowArray(Array);
+	}
 
-	////Problem 2
-	//int num;
-	//int arr[50][50] = { 0 };
+	//Problem 2
+	int num;
+	int arr[50][50] = { 0 };
 
-	//printf("숫자를 입력하시오 : ");
-	//scanf("%d", &num);
+	printf("숫자를 입력하시오 : ");
+	scanf("%d", &num);
 
-	//MakeSnail(arr, num);
-	//ShowArray2(arr, num);
-	//printf("\n");
+	MakeSnail(arr, num);
+	ShowArray2(arr, num);
+	printf("\n");
 
-	////Problem 3
-	//printf("난수의 범위 : 0부터 %d까지 \n", RAND_MAX);
-	//for (int i = 0; i < 5; i++)
-	//{
-	//	printf("난수 출력 : %d \n", rand()%100);
-	//}
-	//printf("\n");
+	//Problem 3
+	printf("난수의 범위 : 0부터 %d까지 \n", RAND_MAX);
+	for (int i = 0; i < 5; i++)
+	{
+		printf("난수 출력 : %d \n", rand()%100);
+	}
+	printf("\n");
 
-	////Problem 4
-	//int dice1, dice2;
+	//Problem 4
+	int dice1, dice2;
 
-	//srand((int)time(NULL));
+	srand((int)time(NULL));
 
-	//dice1 = (rand() % 6) + 1;
-	//dice2 = (rand() % 6) + 1;
+	dice1 = (rand() % 6) + 1;
+	dice2 = (rand() % 6) + 1;
 
-	//printf("주사위 1의 결과 : %d \n", dice1);
-	//printf("주사위 2의 결과 : %d \n", dice2);
-	//printf("\n");
+	printf("주사위 1의 결과 : %d \n", dice1);
+	printf("주사위 2의 결과 : %d \n", dice2);
+	printf("\n");
 
-	////Problem 5
-	//int User, Computer;
-	//int Win = 0, Draw = 0;
+	//Problem 5
+	int User, Computer;
+	int Win = 0, Draw = 0;
 
-	//srand(time(NULL));
+	srand(time(NULL));
 
-	//while (1) {
+	while (1) {
 
-	//	printf("바위는 1, 가위는 2, 보는 3: ");
-	//	scanf("%d", &User);
-	//	Computer = rand() % 3 + 1;
+		printf("바위는 1, 가위는 2, 보는 3: ");
+		scanf("%d", &User);
+		Computer = rand() % 3 + 1;
 
-	//	if (Computer == 1) {
-	//		if (User == 1) {
-	//			printf("당신은 바위 선택, 컴퓨터는 바위 선택, 비겼습니다. \n");
-	//			Draw++;
-	//		}
+		if (Computer == 1) {
+			if (User == 1) {
+				printf("당신은 바위 선택, 컴퓨터는 바위 선택, 비겼습니다. \n");
+				Draw++;
+			}
 
-	//		else if (User == 2) {
-	//			printf("당신은 가위 선택, 컴퓨터는 바위 선택, 졌습니다. \n");
-	//			break;
-	//		}
+			else if (User == 2) {
+				printf("당신은 가위 선택, 컴퓨터는 바위 선택, 졌습니다. \n");
+				break;
+			}
 
-	//		else {
-	//			printf("당신은 보 선택, 컴퓨터는 바위 선택, 이겼습니다. \n");
-	//			Win++;
-	//		}
-	//	}
+			else {
+				printf("당신은 보 선택, 컴퓨터는 바위 선택, 이겼습니다. \n");
+				Win++;
+			}
+		}
 
-	//	else if (Computer == 2) {
-	//		if (User == 1) {
-	//			printf("당신은 바위 선택, 컴퓨터는 가위 선택, 이겼습니다. \n");
-	//			Win++;
-	//		}
+		else if (Computer == 2) {
+			if (User == 1) {
+				printf("당신은 바위 선택, 컴퓨터는 가위 선택, 이겼습니다. \n");
+				Win++;
+			}
 
-	//		else if (User == 2) {
-	//			printf("당신은 가위 선택, 컴퓨터는 가위 선택, 비겼습니다. \n");
-	//			Draw++;
-	//		}
+			else if (User == 2) {
+				printf("당신은 가위 선택, 컴퓨터는 가위 선택, 비겼습니다. \n");
+				Draw++;
+			}
 
-	//		else {
-	//			printf("당신은 보 선택, 컴퓨터는 가위 선택, 졌습니다. \n");
-	//			break;
-	//		}
-	//	}
+			else {
+				printf("당신은 보 선택, 컴퓨터는 가위 선택, 졌습니다. \n");
+				break;
+			}
+		}
 
-	//	else {
-	//		if (User == 1) {
-	//			printf("당신은 바위 선택, 컴퓨터는 보 선택, 졌습니다. \n");
-	//			break;
-	//		}
+		else {
+			if (User == 1) {
+				printf("당신은 바위 선택, 컴퓨터는 보 선택, 졌습니다. \n");
+				break;
+			}
 
-	//		else if (User == 2) {
-	//			printf("당신은 가위선택, 컴퓨터는 보 선택, 이겼습니다. \n");
-	//			Win++;
-	//		}
+			else if (User == 2) {
+				printf("당신은 가위선택, 컴퓨터는 보 선택, 이겼습니다. \n");
+				Win++;
+			}
 
-	//		else {
-	//			printf("당신은 보 선택, 컴퓨터는 보 선택, 비겼습니다. \n");
-	//			Draw++;
-	//		}
-	//	}
-	//}
-	//printf("\n");
-	//printf("게임의 결과: %d 승, %d 무\n", Win, Draw);
-	//printf("\n");
+			else {
+				printf("당신은 보 선택, 컴퓨터는 보 선택, 비겼습니다. \n");
+				Draw++;
+			}
+		}
+	}
+	printf("\n");
+	printf("게임의 결과: %d 승, %d 무\n", Win, Draw);
+	printf("\n");
 
 	//Problem 6
 	int Question[3], Answer[3];
