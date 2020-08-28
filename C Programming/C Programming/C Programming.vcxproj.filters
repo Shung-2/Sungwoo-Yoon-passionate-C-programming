@@ -105,5 +105,26 @@
     <ClCompile Include="Chapter 22.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter 23.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P478 StructValAndFunction.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P479 StructMemArrCopy.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P481 StructFunctionCallByRef.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P482 StructOperation.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P483 StructAddMin.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter 23 P484 Problem23-1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
