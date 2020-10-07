@@ -153,5 +153,8 @@
     <ClCompile Include="Chapter 25.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter 26.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
