@@ -1,3 +1,3 @@
-# Sungwoo-Yoon-passionate-C-programming
-Code and problem solving in books  
-fgh
+# 윤성우의 열혈 C 프로그래밍
+
+윤성우 저자의 열혈 C 프로그래밍 교재의 모든 연습 문제, 챕터 문제 등 모든 문제에 대한 소스코드를 저장한 리포지토리입니다.
