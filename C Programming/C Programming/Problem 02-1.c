@@ -3,12 +3,12 @@
 int main(void)
 {
 	// Problem 1
-	printf("이시영 \n이 시 영 \n이  시  영\n\n");
+	printf("Name \nN a m e \nN  a  m e\n\n");
 	
 	// Problem 2
-	printf("이시영\n");
-	printf("서울시 시흥동 872-12번지 3층 301호\n");
-	printf("010-5580-5098\n");
+	printf("Name\n");
+	printf("Address\n");
+	printf("Phone number\n");
 	
 	return 0;
 }
